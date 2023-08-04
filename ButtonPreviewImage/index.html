@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>File Upload Button with CSS and Image Preview Feature</h1>
+
+    <div class="container">
+        <div class="image-view">
+            <img id="image" alt="image preview" >
+        </div>
+
+        <label for="file-upload">Upload Image</label>
+        <input type="file" accept="image/*" id="file-upload" onchange="fileUpload(event);" >
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
