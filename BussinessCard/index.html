@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/BussinessCard/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="card">
-                <h2 class="title">Enter your password</h2>
-                <img class="avatar" src="https://xsgames.co/randomusers/avatar.php?g=female">
-                <p class="job">Business Account</p>
-                <p class="name">Sarah Bills</p>
-        
-                <p class="psw-title">Password</p>
-                <i class="fas fa-lock psw-icon"></i>
-                <input type="password" class="psw-input" placeholder="Enter your password">
-                <i id="psw-eye" class="far fa-eye" onclick="setPwsVisibility()"></i>
-                <br><br>
-                <input type="checkbox" name="switch" id="switch">
-                <label for="switch"></label>
-                <p class="switch-txt">Stay signed in</p>
-                <div class="continue-btn">Continue</div>
-                <a class="reset-href" href="javascript:void(0)">Reset password</a>
-            </div>
-        <footer>
-            Avatar API: <a href="https://xsgames.co/randomusers" target="_blank">Random Users</a>
-            <br>
-            Animations: <a href="https://xsgames.co/animatiss" target="_blank">AnimatiSS</a></footer>
+      <h2 class="title">Enter your password</h2>
+      <img
+        class="avatar"
+        src="https://xsgames.co/randomusers/avatar.php?g=female"
+      />
+      <p class="job">Business Account</p>
+      <p class="name">Sarah Bills</p>
 
-        <script src="../BussinessCard/index.js"></script>
-</body>
+      <p class="psw-title">Password</p>
+      <i class="fas fa-lock psw-icon"></i>
+      <input
+        type="password"
+        class="psw-input"
+        placeholder="Enter your password"
+      />
+      <i id="psw-eye" class="far fa-eye" onclick="setPwsVisibility()"></i>
+      <br /><br />
+      <input type="checkbox" name="switch" id="switch" />
+      <label for="switch"></label>
+      <p class="switch-txt">Stay signed in</p>
+      <div class="continue-btn">Continue</div>
+      <a class="reset-href" href="javascript:void(0)">Reset password</a>
+    </div>
+    <footer>
+      Avatar API:
+      <a href="https://xsgames.co/randomusers" target="_blank">Random Users</a>
+      <br />
+      Animations:
+      <a href="https://xsgames.co/animatiss" target="_blank">AnimatiSS</a>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
